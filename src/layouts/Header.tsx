@@ -85,7 +85,7 @@ export default function Header() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Product
+              产品
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"
@@ -150,25 +150,25 @@ export default function Header() {
             href="/#newsletter"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Newsletter
+            行业新闻
           </a>
           <a
             href="/price"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Price
+            价格
           </a>
           <a
             href="/contact"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Contact
+            联系我们
           </a>
           <a
             href="/blog"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Blog
+            文章
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -176,7 +176,7 @@ export default function Header() {
             href="/signin"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
-            Log in <span aria-hidden="true">&rarr;</span>
+            登陆 <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
@@ -213,7 +213,7 @@ export default function Header() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-                        Product
+                        产品
                         <ChevronDownIcon
                           className={classNames(
                             open ? 'rotate-180' : '',

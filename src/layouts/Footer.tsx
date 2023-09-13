@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="flex-none w-1/2 space-y-10 sm:space-y-8 lg:flex lg:space-y-0">
             <div className="lg:flex-none lg:w-1/2">
               <h2 className="font-semibold text-slate-900 dark:text-slate-100">
-                Getting Started
+                开始
               </h2>
               <ul className="mt-3 space-y-2">
                 <li>
@@ -61,7 +61,7 @@ export default function Footer() {
             </div>
             <div className="lg:flex-none lg:w-1/2">
               <h2 className="font-semibold text-slate-900 dark:text-slate-100">
-                Core Concepts
+                主要概念
               </h2>
               <ul className="mt-3 space-y-2">
                 <li>
