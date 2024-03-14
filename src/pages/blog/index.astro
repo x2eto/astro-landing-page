@@ -1,6 +1,7 @@
 ---
 import BlogPostCard from '@/components/BlogPostCard';
 import Layout from '@/layouts/Layout.astro';
+const allPosts = await Astro.glob('../posts/*.md');
 
 const randomPost = () => ({
   id: Math.floor(Math.random() * 1000), // 随机生成 0-999 之间的整数作为 ID
@@ -24,7 +25,7 @@ const randomPost = () => ({
 const posts = [
   {
     id: 1,
-    title: 'Boost your conversion rate',
+    title: '测试001',
     href: '#',
     description:
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
@@ -40,9 +41,6 @@ const posts = [
     },
   },
   randomPost(),
-  randomPost(),
-  randomPost(),
-  // More posts...
 ];
 ---
 
@@ -62,6 +60,9 @@ const posts = [
       >
         {posts.map((p) => <BlogPostCard post={p} />)}
       </div>
+      <ul>
+    </ul>
+    {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
     </div>
   </div>
 </Layout>

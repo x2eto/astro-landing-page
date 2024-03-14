@@ -247,7 +247,7 @@ export default function Header() {
                   href="/price"
                   className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Price
+                  价格
                 </a>
                 <a
                   href="/contact"
@@ -267,7 +267,7 @@ export default function Header() {
                   href="/signin"
                   className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Log in
+                  登陆
                 </a>
               </div>
             </div>

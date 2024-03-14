@@ -14,7 +14,7 @@ export default function Footer() {
                     className="hover:text-slate-900 dark:hover:text-slate-300"
                     href="/docs/installation"
                   >
-                    Installation
+                    安装
                   </a>
                 </li>
                 <li>
@@ -30,7 +30,7 @@ export default function Footer() {
                     className="hover:text-slate-900 dark:hover:text-slate-300"
                     href="/docs/using-with-preprocessors"
                   >
-                    Using with Preprocessors
+                    使用前准备
                   </a>
                 </li>
                 <li>
@@ -38,7 +38,7 @@ export default function Footer() {
                     className="hover:text-slate-900 dark:hover:text-slate-300"
                     href="/docs/optimizing-for-production"
                   >
-                    Optimizing for Production
+                    上线压缩
                   </a>
                 </li>
                 <li>
@@ -46,7 +46,7 @@ export default function Footer() {
                     className="hover:text-slate-900 dark:hover:text-slate-300"
                     href="/docs/browser-support"
                   >
-                    Browser Support
+                    浏览器支持
                   </a>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ export default function Footer() {
                     className="hover:text-slate-900 dark:hover:text-slate-300"
                     href="/docs/upgrade-guide"
                   >
-                    Upgrade Guide
+                    升级指南
                   </a>
                 </li>
               </ul>
@@ -222,14 +222,6 @@ export default function Footer() {
                     href="https://twitter.com/tailwindcss"
                   >
                     Twitter
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="hover:text-slate-900 dark:hover:text-slate-300"
-                    href="https://www.youtube.com/tailwindlabs"
-                  >
-                    YouTube
                   </a>
                 </li>
               </ul>
